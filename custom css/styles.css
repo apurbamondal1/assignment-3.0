@@ -1,6 +1,29 @@
+.body{
+    margin: 0%;
+    padding: 0;
+}
+
+
+
+
 .image-effect{
     filter: brightness(60%);
 }
 .text-color{
     color: rgb(10, 103, 224);
 }
+
+@media (max-width: 576px) {
+    .direction {
+      flex-direction: column;
+      
+    }
+  }
+
+  @media (max-width: 576px) {
+    .directions {
+      flex-direction: column-reverse;
+      
+    }
+  }
+  
