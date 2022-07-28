@@ -1,0 +1,6 @@
+.image-effect{
+    filter: brightness(60%);
+}
+.text-color{
+    color: rgb(10, 103, 224);
+}
